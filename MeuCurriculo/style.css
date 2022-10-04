@@ -1,0 +1,268 @@
+header {	
+ 	font-family: 'Silkscreen', cursive;
+ 	position:absolute;
+ 	width: 100%;
+	margin: 0 auto;
+	height: 60px;
+	background:#1C1C1C;
+ }
+
+nav {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    bottom: 20px; 
+}
+
+nav li {
+    display: inline-block;
+    margin: 16px, 10px;
+}
+
+nav li a{
+	text-transform: uppercase;
+	color: whitesmoke;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #CD5C5C;
+	text-decoration: underline;
+}
+
+#sobre-mim-icone:before{
+ content: "👩";
+}
+
+#educacao-icone:before{
+ content: "📔";
+}
+
+#experiencias-icone:before{
+ content: "💻";
+}
+
+#competencias-icone:before{
+ content: "🧠";
+}
+
+#interesses-icone:before{
+ content: "🐶";
+}
+
+.cabecalho{
+	width: 100%;
+	height: 520px;
+	background:#1C1C1C;
+}
+.caixa {
+	position: relative;
+	width: 100%;
+	height: 450px;
+	top: 60px;
+	background-image: url(fundoheader.png);
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+}
+
+@media screen and (max-width:1040px) {
+    header {
+        display: none;
+    }
+}
+
+.imagem-circular {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top:  30px;
+	right: 30px;
+	background-image: url(profile.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+	border: #CD5C5C 10px solid;
+}
+
+.dados  {
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 70px;
+}
+
+.dados h1 {
+	font-size: 80px;
+	font-family: 'Amatic SC', cursive;
+	color: whitesmoke;
+	font-weight: bold;
+}
+.dados h2{
+	font-family: 'Silkscreen', cursive;
+	font-size: 30px;
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	color: #FF7878;
+}
+
+.contato{
+ 	display:flex;
+}
+
+.icones{
+	height: 25px;
+	width: 25px;
+	display: inline;
+	padding: 5px;
+}
+
+.texto-contato{
+	margin-left:3px;
+	padding: 5px;
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+}
+
+.redes {
+ 	position: absolute;
+ 	margin-left: 40%;
+ 	margin-top: 20px;
+
+}
+
+.redes img{
+ 	height: 45px;
+	width: 45px;
+	display: inline;
+	padding: 15px;
+}
+
+main {
+    height: 1000px;
+    background: hotpink;
+    color: black;
+    margin: 0 auto
+}
+
+.sobre-mim{
+	position: relative;
+}
+
+/* #sobre-mim div {
+	display:inline-block;
+	height: 350px;
+	width: 100%;
+}*/
+
+.titulos {
+	width: 100%;
+	font-size: 2em;
+	font-family: 'Silkscreen', cursive;
+	vertical-align: middle;
+	text-align: center;
+	background: #CD5C5C;
+	color: black;
+}
+
+.conteudo-sobre-mim {
+	height: 350px;
+	width: 100%;
+	margin: 0 auto;
+	position:static;
+	background: #1C1C1C;
+}
+
+.conteudo-sobre-mim .video{
+	width:45%;
+	background: #1C1C1C;
+	display: inline-block;
+	height: 350px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.conteudo-sobre-mim iframe{
+	width: 37%;
+	display: inline-block;
+	padding: 0.9em;
+	height: 20em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.conteudo-sobre-mim .texto {
+	display: inline-block;
+	vertical-align: center;
+	height: 349px;
+	width: 54%;
+	color: whitesmoke;
+	background: #1C1C1C;
+	line-height: 35px;
+	text-align: justify;
+	font-family: 'Amatic SC', cursive;
+}
+
+/*.conteudo-sobre-mim .texto{
+	width:45%;
+	background: #1C1C1C;
+	display: inline-block;
+	height: 345px;
+	text-align: center;
+	vertical-align: middle;
+}*/
+
+.texto p {
+	font-size: 24px;
+	color: whitesmoke;
+	padding: 3em;
+	background: #1C1C1C;
+	line-height: 35px;
+	vertical-align: center;
+	text-align: justify;
+	font-family: 'Amatic SC', cursive;
+}
+/* video como absoluto e texto como relativo ao vídeo*/
+
+#educacao div {
+	width: 100%;
+	background: gray;
+	display: inline-block;
+	height: 320px;
+	margin: 0 auto;
+}
+
+.conteudo-educacao {
+	height: 300px;
+	width: 100%;
+}
+
+.conteudo-educacao li {
+	padding: 25px;
+	font-size: 30px;
+	color: whitesmoke;
+	background: #1C1C1C;
+	line-height: 35px;
+	text-align: justify;
+	font-family: 'Amatic SC', cursive;
+}
+
+.conteudo-educacao a {
+ color: whitesmoke;
+}
+
+.conteudo-educacao a:hover {
+	color: #CD5C5C;
+}
+
+.bandeirinhas {
+	padding-left: 25px;
+	padding-right: 4px;
+	height: 30px;
+	width:  50px;
+}
+
+
+
+
