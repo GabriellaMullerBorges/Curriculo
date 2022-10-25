@@ -140,8 +140,6 @@ nav a:hover {
 }
 
 main {
-    height: 1000px;
-    background: hotpink;
     color: black;
     margin: 0 auto
 }
@@ -150,27 +148,26 @@ main {
 	position: relative;
 }
 
-/* #sobre-mim div {
-	display:inline-block;
-	height: 350px;
-	width: 100%;
-}*/
-
 .titulos {
 	width: 100%;
-	font-size: 2em;
-	font-family: 'Silkscreen', cursive;
-	vertical-align: middle;
-	text-align: center;
+	height: 2.5em;
 	background: #CD5C5C;
 	color: black;
+	position: relative;
 }
+
+ h3{
+ 	text-align: center;
+	font-size: 2em;
+	font-family: 'Silkscreen', cursive;
+	padding-top: 1em;
+	margin-top: 0;
+ }
 
 .conteudo-sobre-mim {
 	height: 350px;
 	width: 100%;
 	margin: 0 auto;
-	position:static;
 	background: #1C1C1C;
 }
 
@@ -204,14 +201,6 @@ main {
 	font-family: 'Amatic SC', cursive;
 }
 
-/*.conteudo-sobre-mim .texto{
-	width:45%;
-	background: #1C1C1C;
-	display: inline-block;
-	height: 345px;
-	text-align: center;
-	vertical-align: middle;
-}*/
 
 .texto p {
 	font-size: 24px;
@@ -225,31 +214,35 @@ main {
 }
 /* video como absoluto e texto como relativo ao vídeo*/
 
-#educacao div {
+.educacao div {
 	width: 100%;
-	background: gray;
+	background:#1C1C1C;
 	display: inline-block;
-	height: 320px;
+	height: 250px;
 	margin: 0 auto;
 }
 
 .conteudo-educacao {
-	height: 300px;
+	height: 250px;
 	width: 100%;
+	text-align: center;
 }
 
 .conteudo-educacao li {
+	margin-top: 25px;
+	display: inline-block;
+	position: relative;
 	padding: 25px;
 	font-size: 30px;
 	color: whitesmoke;
 	background: #1C1C1C;
 	line-height: 35px;
-	text-align: justify;
 	font-family: 'Amatic SC', cursive;
 }
 
 .conteudo-educacao a {
  color: whitesmoke;
+text-align: center;
 }
 
 .conteudo-educacao a:hover {
@@ -257,12 +250,245 @@ main {
 }
 
 .bandeirinhas {
-	padding-left: 25px;
+	padding-left: 10px;
 	padding-right: 4px;
-	height: 30px;
-	width:  50px;
+	height: 20px;
+	width:  40px;
+}
+
+.experiencias{
+	position: relative;
+}
+
+#experiencias div {
+	width: 100%;
+	display: inline-block;
+	height: 200px;
+	margin: 0 auto;}
+
+.experiencias{
+	position: relative;
+}
+
+.conteudo-experiencias{
+	height: 200px;
+	width: 100%;
+	margin: 0 auto;
+	background: #1C1C1C;
+	color: whitesmoke;
+	line-height: 35px;
+	font-family: 'Amatic SC', cursive;
+	position: relative;
+	vertical-align: middle;
 }
 
 
+thead{
+	background: #000000;
+	font-weight: bold;
+    color: white;
+    font-size: 2em;
+}
+
+th {
+	border:  1px solid #000000;
+	padding: 8px 5px;
+	width: 25%;
+	font-size: 1.5em;
+}
+
+td {
+	font-size: 1.5em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+td a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+td a:hover {
+	color: #CD5C5C;
+	text-decoration: underline;
+}
+
+.loading {
+	height: 4em;
+	width:4em;
+}
+
+.competencias{
+	position: relative;
+}
+
+#competencias div {
+	width: 100%;
+	display: inline-block;
+	margin: 0 auto;}
+
+.conteudo-competencias {
+	height: 250px;
+	width: 100%;
+	margin-top: 0;
+	background: #1C1C1C;
+	color: whitesmoke;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	position: relative;
+}
+
+td{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.competencialogo {
+	height: 120px;
+	width: 125px;
+	border-radius: 50%;
+}
+
+.interesses{
+	position: relative;
+}
+
+#interesses div {
+	width: 100%;
+	display: inline-block;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.conteudo-interesses {
+	height: 300px;
+	width: 100%;
+	margin-top: 0;
+	background: #1C1C1C;
+	color: whitesmoke;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	position: relative;
+}
+
+.conteudo-interesses ul{
+	height: 300px;
+	width: 100%;
+	vertical-align: middle;
+}
+
+
+.cachorro {
+	position: relative;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	margin: 1em;
+	margin-left: 2em;
+	background-image: url(icones/interesses/cachorro.JPG);
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+	border: #FFFF00 10px solid;
+}
+
+.direito {
+	position: relative;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	margin: 1em;
+	margin-left: 2em;
+	background-image: url(icones/interesses/direito.png);
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+	border: #B22222 10px solid;
+}
+
+.pokemon {
+	position: relative;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	margin: 1em;
+	margin-left: 1em;
+	background-image: url(icones/interesses/pokemon.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+	border: #FF4500 10px solid;
+}
+
+.marvel {
+	position: relative;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	margin: 1em;
+	margin-left: 1em;
+	background-image: url(icones/interesses/thor.jfif);
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+	border: #4682B4 10px solid;
+}
+
+.viagem {
+		position: relative;
+		display: inline-block;
+		width: 150px;
+		height: 150px;
+		margin: 1em;
+		margin-left: 1em;
+		background-image: url(icones/interesses/paris.jfif);
+		background-position: center;
+		background-size: cover;
+		border-radius: 50%;
+		border: #BA55D3 10px solid;
+}
+
+.animes {
+	position: relative;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	margin: 1em;
+	margin-left: 1em;
+	background-image: url(icones/interesses/naruto.jfif);
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+	border: #006400 10px solid;
+}
+
+footer{
+	position: relative;
+	display: block;	
+	height: 100px;
+	width: 100%;
+	background: linear-gradient(to right,#CD5C5C,#1C1C1C);
+}
+
+footer p {
+	color: whitesmoke;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	padding: 1em;
+
+}
+
+footer a {
+	color: 	#FFEBCD;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #DC143C
+}
+	
 
 
