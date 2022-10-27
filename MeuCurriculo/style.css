@@ -36,7 +36,7 @@ nav a:hover {
 }
 
 #educacao-icone:before{
- content: "📔";
+ content: "📚";
 }
 
 #experiencias-icone:before{
@@ -46,6 +46,10 @@ nav a:hover {
 #competencias-icone:before{
  content: "🧠";
 }
+
+#projetos-icone:before{
+	content: "📁";
+   }
 
 #interesses-icone:before{
  content: "🐶";
@@ -212,7 +216,6 @@ main {
 	text-align: justify;
 	font-family: 'Amatic SC', cursive;
 }
-/* video como absoluto e texto como relativo ao vídeo*/
 
 .educacao div {
 	width: 100%;
@@ -347,6 +350,29 @@ td{
 	height: 120px;
 	width: 125px;
 	border-radius: 50%;
+}
+
+.projetos {
+	background: #1C1C1C;
+}
+
+.projetos p {
+	color: whitesmoke;
+	font-weight: bold;
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	padding: 1em;
+}
+
+.codepen {
+	height: 300px;
+	 box-sizing: border-box; 
+	 display: flex;
+	  align-items: center;
+	   justify-content: center; 
+	   border: 2px solid;
+	    margin: 1em 0; 
+		padding: 1em;
 }
 
 .interesses{
