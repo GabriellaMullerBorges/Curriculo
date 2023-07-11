@@ -1,197 +1,185 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="header-nav.css">	
-		<link rel="stylesheet" href="footer.css">	
-		<link rel="stylesheet" href="reativo-style.css">	
-		<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
-		<link rel="icon" href="https://publicdomainvectors.org/photos/heart-15.png">
-		<title>	Portfólio Gabriella Müller </title>
-	</head>
-
-	<body>
-		<header>			
-				<nav>
-					<ul>
-						<li><a id="sobre-mim-icone" href="#sobre-mim">sobre mim</a></li>
-			            <li><a id="educacao-icone" href="#educacao">educação</a></li>
-			            <li><a id="experiencias-icone" href="#experiencias">experiências</a></li>
-			            <li><a id="competencias-icone" href="#competencias">competencias</a></li>
-						<li><a id="projetos-icone" href="#projetos">projetos</a></li>
-			            <li><a id="interesses-icone" href="#interesses">interesses</a></li>
-					</ul>
-				</nav>
-
-				<section class = "caixa">			
-					<div class="imagem-circular">
-					</div>
-					
-					<div class="dados">
-						<h1>Gabriella Müller Borges</h1>
-						<h2>Desenvolvedora de Software</h2>
-							
-						<div class="contato">
-							<img class="icones" src="icones/email.png"> 
-							<p class="texto-contato">gabimullerborges@gmail.com</p>
-						</div>
-						<div class="contato">
-							<img class="icones" src="icones/whatsapp.png"> 
-							<p class="texto-contato">(51)99699-7959</p>
-						</div>	
-						<div class="contato">
-							<img class="icones" src="icones/localizacao.png"> 
-							<p class="texto-contato">Porto Alegre/RS</p>
-						</div>	
-
-						<div class="redes">
-							<a href="https://www.linkedin.com/in/gabriella-borges-a01b77249/"><img src="icones/linkedin.png"></a>
-							<a href="https://github.com/GabriellaMullerBorges"><img src="icones/github.png"></a>
-							<a href="https://instagram.com/gabriellamulleradvogada?igshid=YmMyMTA2M2Y="><img src="icones/instagram.png"></a>
-							
-						</div>
-					</div>		
-					
-					
-				
-				</section>
-		</header>
-
-		<main>
-			<div class="sobre-mim" id="sobre-mim">
-				<h3 class="titulos">Sobre Mim</h3>
-					<div class="conteudo-sobre-mim">
-						<div class="video">
-							<iframe width="100%" height="100%" src="video/rascunhovideo.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
-						</div>
-						<div class="texto">
-							<p>Como vocês já devem ter percebido, meu nome é Gabriella, e sou estudante de tecnologia e advogada nas horas vagas. No momento estou focando em front-end, no entanto, pretendo aprender mais conteúdos de back-end conforme for mne desenvolvendo na carreira. Desenvolvi essa página haja vista o desafio proposto pelo Grupo Alura no curso Zenvia Empower Code, e, assim, pude colocar em prática os aprendizados que desenvolvi como iniciante.</p>
-						</div>
-					</div>
+<html>
+<head>
+    <title>Dev Gabriella Borges</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/styles/nav.css">
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="stylesheet" href="/styles/apresentacao.css">
+	<link rel="stylesheet" href="/styles/redes.css">
+	<link rel="stylesheet" href="/styles/card.css">
+	<link rel="stylesheet" href="/styles/sobre.css">
+</head>
+<body class="vh-100 bg-dark text-light">
+	<div class="container impression d-flex flex-column justify-content-center align-items-center min-vw-100">
+	  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<a class="navbar-brand" href="#"><p class="navbar-brand-texto">Gabriella Borges</p></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item active">
+			  <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#sobre">Sobre</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Habilidades Técnicas</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Competências Interpessoais</a>
+			  </li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Projetos</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Contato</a>
+			  </li>
+		  </ul>
+		</div>
+	  </nav>
+  
+	  <div class="container-card mt-4 mb-4 vw-100" id="inicio">
+		<div class="card bg-dark">
+		  <div class="row">
+			<div class="col-md-5 text-center">
+			  <div class="card-imagem">
+				<div class="img-apresentacao"></div>
+			  </div>
 			</div>
-			  	
-			<div class="educacao" id="educacao">
-				<h3 class="titulos">Educação</h3>
-					<div class="conteudo-educacao">
-						<ul>
-							<li class="caixa-educacao"><a href="http://www.ufrgs.br/direito/">Bacharelado em Direito/UFRGS</a></li>
-							<li class="caixa-educacao"><a href="https://educon.pucrs.br/cursos/direito-de-familia-e-sucessoes/">Pós-Graduação em Direito/PUCRS</a></li>						
-							<li class="caixa-educacao"><a href="https://cursos.alura.com.br/user/gabimullerborges/fullCertificate/2afef2d8d9a54f4190caea77630536f9">Formações Alura - Certificados</a></li>
-							<br><li class="caixa-educacao">Idiomas:<img class="bandeirinhas" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg">Fluente 
-								<img class="bandeirinhas" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png">Intermediário 
-								<img class="bandeirinhas" src="https://static.todamateria.com.br/upload/ba/nd/bandeira-do-brasil-og.jpg">Nativo</li>
-						</ul>
-				</div>		
-			</div>	
-
-			<div class="experiencias" id="experiencias">
-			 	<h3 class="titulos">Experiências</h3>
-			 		<table class="conteudo-experiencias">
-			 			<thead>
-			 				<tr>
-					 			<th class="estagios">Estágios</th>
-					 			<th class="escritorios">Escritórios</th>
-					 			<th class="autonoma">Autônoma</th>
-					 			<th class="nova-jornada">Nova Jornada</th>
-					 		</tr>
-			 			</thead>
-			 			<tbody>
-			 				<tr>
-			 					<td><a href="https://www.mprs.mp.br/">Ministério Público do Rio Grande do Sul</a></td>
-			 					<td><a href="https://grupostudio.com.br/">Grupo Studio </a><br><a href="http://www.carrion.com.br/">
-			 					Carrion Advogados </a></td>
-			 					<td><a href="https://instagram.com/gabriellamulleradvogada?igshid=YmMyMTA2M2Y=">Atuação como advogada de Família</a></td>
-			 					<td><img class="loading" src="icones/loading.gif"></td>
-			 				</tr>
-			 			</tbody>
-			 		</table>
+			<div class="col-md-7">
+			  <div class="card-texto ">
+				<div class="card-body">
+				  <div class="typed-strings">
+					<h3 class="card-text frase"><span id="frase1">Desenvolvedora <p class="destaque">Front-end</p> </span></h3>
+					<h3 class="card-text frase"><span id="frase2">Estudante de Engenharia de <p class="destaque">Software</p></span></h3>
+					<h3 class="card-text frase"><span id="frase3">Apaixonada por inovar e transformar experiências humanas</span></h3>
+				  </div>
+				  <p class="texto-apresentacao"> Desenvolvedora de Software com experiência em criar projetos web com layouts responsivos e interativos, integrados com APIs</p>
+				  <div class="redes">
+					<div class="github"></div>
+					<div class="linkedin"></div>
+					<div class="email"></div>
+					<div class="whatsapp"></div>
+					<button class="cv"> CV </button>
+				  </div>
+				</div>
+			  </div>
 			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
 
-			<div class="competencias" id="competencias">
-				<h3 class = "titulos">Competências</h3>
-					<table class="conteudo-competencias">
-						<thead><tr></tr> </thead>
-						<tbody>
-							<tr>
-								<td><img class="competencialogo" src="icones/competencias/planejamento.png"><br>PLANEJAMENTO</td>
-								<td><img class="competencialogo" src="icones/competencias/criatividade.jpg"><br>CRIATIVIDADE</td>
-								<td><img class="competencialogo" src="icones/competencias/organizacao.png"><br>ORGANIZAÇÃO</td>
-							</tr>
-							<tr>
-								<td><img class="competencialogo" src="icones/competencias/ambicao.jpg"><br>AMBIÇÃO</td>
-								<td><img class="competencialogo" src="icones/competencias/estrategia.png"><br>ESTRATÉGIA</td>
-								<td><img class="competencialogo" src="icones/competencias/colaboracao.png"><span class="legenda"></span><br>COLABORAÇÃO</td>
-							</tr>	
-						</tbody>
-					</table>
-			</div>	
-
-			<div class="projetos" id="projetos">
-				<h3 class = "titulos">Projetos</h3>
-				<ul>
-					<li>
-						<p>Conversor de Moedas</p>
-						<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="BarrGJL" data-user="Gabriella-Muller-Borges" >
-							<span>See the Pen <a href="https://codepen.io/Gabriella-Muller-Borges/pen/BarrGJL">
-								Conversor de Moedas</a> Imersão Dev Alura (<a href="https://codepen.io/Gabriella-Muller-Borges">@Gabriella-Muller-Borges</a>)
-								on <a href="https://codepen.io">CodePen</a>.</span>
-						</p>
-					<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-					</li>
-					<li>
-						<p>Mentalista</p>
-						<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="BarPWGZ" data-user="Gabriella-Muller-Borges" >
-							<span>See the Pen <a href="https://codepen.io/Gabriella-Muller-Borges/pen/BarPWGZ">
-								Mentalista</a> Imersão Dev Alura (<a href="https://codepen.io/Gabriella-Muller-Borges">@Gabriella-Muller-Borges</a>)
-								on <a href="https://codepen.io">CodePen</a>.</span>
-								</p>
-						<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-					</li>
-					<li>
-						<p>AluraFlix</p>
-						<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="zYWJNOr" data-user="Gabriella-Muller-Borges" >
-							<span>See the Pen <a href="https://codepen.io/Gabriella-Muller-Borges/pen/zYWJNOr">
-								AluraFlix</a> Imersão Dev Alura (<a href="https://codepen.io/Gabriella-Muller-Borges">@Gabriella-Muller-Borges</a>)
-								on <a href="https://codepen.io">CodePen</a>.</span>
-								</p>
-						<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-					</li>
-				</ul>
+	<div class="sobre" id="sobre">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="titulo">Sobre:</div>
 			</div>
-
-			<div class="interesses" id="interesses">
-				<h3 class = "titulos">Interesses</h3>
-					<table class="conteudo-interesses">
-						<thead><tr></tr> </thead>
-						<tbody>
-							<tr>
-								<td><img class="icones-interesses" id="animes"></td>
-								<td><img class="icones-interesses" id="cachorro"></td>
-								<td><img class="icones-interesses" id="direito"></td>
-							</tr>
-							<tr>
-								<td><img class="icones-interesses" id="pokemon"></td>
-								<td><img class="icones-interesses" id="marvel"></td>
-								<td><img class="icones-interesses" id="viagem"></td>
-							</tr>	
-						</tbody>
-					</table>
+		</div>
+		<div class="row sobre-conteudo">
+				<div class="cidade">
+					<div class="icone-cidade"></div>
+					<p>Porto Alegre/RS</p>
+				</div>
+				<div class="transicao">
+					<div class="icone-transicao"></div>
+					<p>Transição de carreira em 08/22</p>
+				</div>	
+				<div class="viagem">
+					<div class="icone-viagem"></div>
+					<p>Apaixonada por cachorros, história e viagens</p>
+				</div>
+			
+				<div class="diferencial">
+					<div class="icone-ideia"></div>
+					<p>Tem como diferencial Pensamento Crítico e "Life Long Learning". </p>
+				</div>
+		</div>
+		<div class="row d-flex flex-column justify-content-center align-items-center">
+			<button class="saibamais btn">Saiba mais +</button>
+		</div>
+	</div>
+	
+	<div class="habilidades-tecnicas">
+		<div class="titulo">Habilidades Técnicas</div>
+		<div class="row">
+		  <div class="col-md-4 mb-4">
+			<div class="card bg-black text-white">
+			  <div class="card-body">
+				Conteúdo do Card 1
+			  </div>
 			</div>
-		</main>
-
-			<footer>
-				<p>Gostou do perfil? Entre em contato por <a href="mailto:gabimullerborges@gmail.com">Email, </a> 
-					<a href="https://api.whatsapp.com/send?phone=5551996997959&text=Ol%C3%A1!%20Obrigada%20por%20entrar%20em%20contato%2C%20logo%20te%20retornarei!">Whatasapp</a> 
-				ou  <a href="https://instagram.com/gabriellamulleradvogada?igshid=YmMyMTA2M2Y=">Instagram </a><br></p>
-				<p>Gabriella Borges ➖ 2022</p>
-			</footer>
-
-	</body>		
+		  </div>
+		  <div class="col-md-4 mb-4">
+			<div class="card bg-black text-white">
+			  <div class="card-body">
+				Conteúdo do Card 2
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-md-4 mb-4">
+			<div class="card bg-black text-white">
+			  <div class="card-body">
+				Conteúdo do Card 3
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="row">
+		  <div class="col-md-4 mb-4">
+			<div class="card bg-black text-white">
+			  <div class="card-body">
+				Conteúdo do Card 4
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-md-4 mb-4">
+			<div class="card bg-black text-white">
+			  <div class="card-body">
+				Conteúdo do Card 5
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-md-4 mb-4">
+			<div class="card bg-black text-white">
+			  <div class="card-body">
+				Conteúdo do Card 6
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="row">
+		  <div class="col-md-4 mb-4">
+			<div class="card bg-black text-white">
+			  <div class="card-body">
+				Conteúdo do Card 7
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-md-4 mb-4">
+			<div class="card bg-black text-white">
+			  <div class="card-body">
+				Conteúdo do Card 8
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-md-4 mb-4">
+			<div class="card bg-black text-white">
+			  <div class="card-body">
+				Conteúdo do Card 9
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  
+	  
+	
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="nav.js"></script>
+	<script src="typed.js"></script>
+</body>
 </html>

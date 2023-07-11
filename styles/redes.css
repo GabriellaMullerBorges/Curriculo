@@ -1,0 +1,56 @@
+.redes {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between
+}
+
+.github, .linkedin , .email, .whatsapp, .cv {
+    border-radius: 50%;
+    width:  50px;
+    height: 50px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+}
+
+.linkedin , .email, .cv {
+    background-size: 50%; 
+    border: 4px solid rgb(255, 196, 0)
+}
+
+
+.github {
+    background-image: url(/icones/github.svg);
+    background-size: 100% auto;
+}
+
+.linkedin {
+    background-image: url(/icones/linkedin.svg);  
+}
+
+.email{
+    background-image: url(/icones/mail.svg)
+}
+
+.whatsapp {
+    background-image: url(/icones/whatsapp.svg);
+    background-size: 100% auto;
+}
+
+.cv {
+    background-color: transparent;
+    color:rgb(255, 196, 0)
+}
+
+:is(.github, .linkedin, .email, .whatsapp, .cv):hover {
+    box-shadow: 0 0 10px rgb(255, 196, 0);
+    transform: scale(1.1);
+  }
+
+  @media (min-width:768px) {
+	.redes {
+		width: 95% !important;
+	}
+	
+    }

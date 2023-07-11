@@ -1,0 +1,14 @@
+
+.apresentacao {
+	margin: 0;
+}
+
+.apresentacao-direita {
+	padding: 2rem
+}
+
+@media (max-width:768px) {
+    .img-apresentacao {
+        align-self: center;
+    }
+}

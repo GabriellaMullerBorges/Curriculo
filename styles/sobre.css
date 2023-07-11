@@ -1,0 +1,72 @@
+.sobre {
+	background-color: rgb(46, 46, 46);
+    padding: 2rem
+}
+
+.titulo {
+    color: rgb(255, 196, 0) !important;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sobre-conteudo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.cidade, .transicao, .viagem, .diferencial {
+    display: flex;
+}
+
+.icone-cidade , .icone-transicao, .icone-viagem, .icone-ideia{
+    height: 20px;
+    width: 20px;
+   background-position: center;
+   background-repeat: no-repeat; 
+
+}
+
+.icone-cidade {
+   background-image: url(/icones/location.svg); 
+}
+
+.icone-transicao{
+    background-image: url(/icones/briefcase.svg); 
+}
+
+.icone-viagem{
+    background-image: url(/icones/love.svg); 
+}
+
+.icone-ideia {
+    background-image: url(/icones/ideia.svg); 
+    height: 20px;
+    width: 20px;
+    margin-right: 2px;
+}
+.diferencial, .viagem {
+    flex-wrap: nowrap;
+    width: fit-content;
+}
+
+.saibamais {
+    color:rgb(255, 196, 0)
+}
+
+.saibamais:hover {
+    color:rgb(155, 155, 154)
+}
+
+
+@media (min-width:1024px) {
+	.sobre-conteudo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+	
+    }

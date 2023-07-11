@@ -1,0 +1,66 @@
+
+.card {
+    display: flex;
+    padding: 1rem;
+    max-height: 85vh;
+    width: 100%;
+    border: 1px solid  rgb(95, 74, 3);
+}
+
+.card-body {
+    display: grid;
+    grid-template-rows:2fr 2fr  1fr;
+    gap: 1rem;
+}
+
+.card-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card-imagem:hover {  
+    transform: scale(1.1);
+ }
+
+.img-apresentacao {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(114, 97, 0);
+    width: 15em;
+    height: 20em; /* Usando 20vw para manter uma proporção circular */
+    max-width: 300px;
+    max-height: 250px ;
+    background: url(/icones/profile.png);
+    background-size: cover; /* Mantém a proporção da imagem */
+}
+
+.img-apresentacao:hover{
+    box-shadow: 0 0 20px rgb(255, 217, 2);
+    transition: 2s;
+}
+
+.card-body{
+    padding: 1rem;
+}
+
+
+.typed-strings {
+    height: 4rem;
+    color: rgb(255, 196, 0)
+}
+
+.card-text.frase:not(:first-child) {
+    display: none;
+  }
+
+.texto-apresentacao {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.card-text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
