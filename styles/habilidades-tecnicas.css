@@ -1,3 +1,60 @@
-.habilidades-tecnicas {
-    padding: 2rem
+#habilidades-tecnicas {
+    margin: 1rem 3rem;
+}
+
+.card-body {
+    padding:10px
+}
+
+.card-habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(46, 46, 46);
+    transition: background-color 0.3s;
+}
+
+.card-habilidades:hover {
+    border: 1px solid rgb(255, 196, 0, 0.2);
+}
+
+.habilidade-logo {
+    width: 70px;
+    height: 70px;
+}
+
+.habilidade-nome{
+    height: fit-content;
+}
+
+.experiencia{
+   margin: 0;
+   padding: 0;
+   height: fit-content;
+   font-size: small;
+   color: gray ;
+   display: none;
+   transition: 0.3s;
+}
+
+.card-habilidades:hover .habilidade-nome {
+    color: rgb(255 196 0);
+}
+.card-habilidades:hover .habilidade-logo {
+    filter:brightness(20%) grayscale(100%);
+    cursor: pointer;  
+}
+
+.card-habilidades:hover .experiencia {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .habilidades-tecnicas {
+
+        margin: 1rem;
+    }
+    
 }

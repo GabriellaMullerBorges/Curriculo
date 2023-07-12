@@ -4,7 +4,7 @@
     padding: 1rem;
     max-height: 85vh;
     width: 100%;
-    border: 1px solid  rgb(95, 74, 3);
+    border:none;
 }
 
 .card-body {
@@ -64,3 +64,9 @@
     font-weight: bold;
 }
 
+@media (min-width:1024px) {
+	.card {
+        border: 1px solid  rgb(95, 74, 3);
+    }
+	
+    }
