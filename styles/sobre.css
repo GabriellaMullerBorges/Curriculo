@@ -3,11 +3,7 @@
     padding: 2rem
 }
 
-.titulo {
-    color: rgb(255, 196, 0) !important;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
+
 
 .sobre-conteudo{
     display: flex;

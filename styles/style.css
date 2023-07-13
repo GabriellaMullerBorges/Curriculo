@@ -15,6 +15,16 @@
 
 }
 
+.titulo {
+    color: rgb(255, 196, 0) !important;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
 
 @media (max-width:768px) {
 	body {

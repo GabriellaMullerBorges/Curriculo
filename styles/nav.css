@@ -16,7 +16,7 @@
 }
 
 .navbar-brand-texto {
-  text-shadow: 0 0 10px rgb(255, 217, 0);
+  text-shadow: 0 0 3px rgb(255, 196, 0);
   font-size: 1.5rem ;
 }
 
@@ -31,8 +31,7 @@
   }
 
 .nav-link:hover{
- text-decoration: underline;
- text-decoration-color:yellow;
+  color: rgb(255, 196, 0) !important;
   }
 
   
