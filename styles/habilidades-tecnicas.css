@@ -3,10 +3,11 @@
 }
 
 .card-body {
-    padding:10px
+    padding:15px
 }
 
 .card-habilidades{
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -14,6 +15,7 @@
     border-radius: 10px;
     background-color: rgb(46, 46, 46);
     transition: background-color 0.3s;
+    font-size: 22px;
 }
 
 .card-habilidades:hover {
@@ -21,8 +23,9 @@
 }
 
 .habilidade-logo {
-    width: 70px;
-    height: 70px;
+    margin-top: 2rem;
+    width: 100px;
+    height: 100px;
 }
 
 .habilidade-nome{
@@ -37,6 +40,7 @@
    color: gray ;
    display: none;
    transition: 0.3s;
+   font-size: 20px;
 }
 
 .card-habilidades:hover .habilidade-nome {
@@ -54,6 +58,20 @@
 @media (min-width: 768px) {
     .habilidades-tecnicas {
         margin: 1rem;
+    }
+
+    .card-habilidades{
+        font-size: 27px;
+    }
+
+    .experiencia{
+        font-size: 25px;
+     }
+
+     .habilidade-logo {
+        margin-top: 3rem;
+        width: 120px;
+        height: 120px;
     }
     
 }

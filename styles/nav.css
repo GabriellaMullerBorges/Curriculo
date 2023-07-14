@@ -8,22 +8,22 @@
 .navbar{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background: rgb(34, 34, 34) !important;
 }
 
 .navbar-brand {
-    width: fit-content;
-    justify-self: start;   
+   text-justify: center;
+   text-shadow: 0 0 3px rgb(255, 196, 0);
+  font-size: 1.5rem ;
+ 
 }
 
-.navbar-brand-texto {
-  text-shadow: 0 0 3px rgb(255, 196, 0);
-  font-size: 1.5rem ;
-}
 
 #navbarNav {
-    width: fit-content;
+    width: 100%;
     justify-self: end;
 }
+
 
 .navbar-toggler{
     outline: none;
@@ -34,6 +34,9 @@
   color: rgb(255, 196, 0) !important;
   }
 
+  .nav-link {
+    font-size: 18px !important ;
+  }
   
 .navbar-toggler:active {
     outline: none;
@@ -50,7 +53,7 @@
     justify-self: flex-end;
   }
 
-@media (max-width:481px) {
+@media (max-width:768px) {
     .navbar .navbar-collapse {
         position: absolute;
         top: 100%;
@@ -66,14 +69,14 @@
         transform: translateY(-20px);
         transition: all 0.3s ease;
         justify-content: flex-end;
-        height: 0; /* Adicionado */
+        height: 0;
       }
     
       .navbar .navbar-collapse.show {
         opacity: 1;
-        visibility: visible;
+        visibility: visible !important;
         transform: translateY(0);
-        height: 100vh; /* Atualizado */
+        height: 100vh; 
       }
     
       .navbar .navbar-toggler {
@@ -117,4 +120,16 @@
       }
 
    
+}
+
+@media (min-width:481px) {
+ .nav-link, .nav-item {
+    font-size: 22px !important;
+    justify-content: space-between !important;
+  }
+
+  #navbarNav , .navbar-nav {
+    justify-content: flex-end !important;   
+  }
+  
 }

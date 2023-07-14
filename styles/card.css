@@ -28,11 +28,11 @@
     border-radius: 50%;
     box-shadow: 0 0 10px rgb(114, 97, 0);
     width: 15em;
-    height: 20em; /* Usando 20vw para manter uma proporção circular */
+    height: 20em; 
     max-width: 300px;
     max-height: 250px ;
     background: url(/icones/profile.png);
-    background-size: cover; /* Mantém a proporção da imagem */
+    background-size: cover;
 }
 
 .img-apresentacao:hover{
@@ -46,7 +46,7 @@
 
 
 .typed-strings {
-    height: 4rem;
+    height:20vh;
     color: rgb(255, 196, 0)
 }
 
@@ -56,17 +56,32 @@
 
 .texto-apresentacao {
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 .card-text {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
-@media (min-width:1024px) {
-	.card {
-        border: 1px solid  rgb(95, 74, 3);
+@media (min-width:768px) {
+
+    .texto-apresentacao {
+        margin: 0.8rem 0;
+        font-size: 2rem;
     }
-	
+    .img-apresentacao {
+        width: 30vw;
+        height: 30vw; 
+        max-width: none;
+        max-height: none;
+    }
+}
+
+@media (min-width:1024px) {
+
+    .texto-apresentacao {
+        margin: 1rem 0;
+        font-size: 2rem;
+    }
     }

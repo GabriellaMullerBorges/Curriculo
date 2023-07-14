@@ -3,15 +3,17 @@
     padding: 2rem
 }
 
-
-
 .sobre-conteudo{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    font-size: 22px;
 }
 
+.sobre-texto {
+    margin-left: 1em;
+}
 
 .cidade, .transicao, .viagem, .diferencial {
     display: flex;
@@ -49,12 +51,14 @@
 }
 
 .saibamais {
-    color:rgb(255, 196, 0)
+    color:rgb(255, 196, 0);
+    font-size: 22px;
     
 }
 
 .saibamais:hover {
-    color:rgb(155, 155, 154)
+    color:rgb(155, 155, 154);
+    font-weight: bold;
 }
 
 
@@ -64,6 +68,20 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-evenly;
+        font-size: 23px;
     }
 	
+    .saibamais {
+        margin-bottom: 1rem;
     }
+
+    .sobre-texto {
+        margin-left: 0;
+    }
+
+    .icone-cidade , .icone-transicao, .icone-viagem, .icone-ideia{
+        height: 30px;
+        width: 30px;
+
+    }
+}
