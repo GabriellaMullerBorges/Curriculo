@@ -1,0 +1,135 @@
+.projetos{
+    margin: 1rem 3rem;
+}
+
+.card-projetos {
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 300px;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: rgb(46, 46, 46);
+    background-size: cover;
+  }
+
+.card-projetos:hover {
+    cursor: pointer;  
+}
+
+ .explicacao-projetos, .projetos-nome, .usos-projetos{
+    display: none;
+    color: black;
+    filter: none;
+    font-size: 1.5rem
+ }
+
+ .explicacao-projetos {
+    font-size: 1rem
+ }
+
+ .card-projetos:hover .projetos-nome {
+    display: flex;
+    font-weight: bold;
+ }
+
+  .card-projetos:hover .usos-projetos {
+    display: flex;
+ }
+
+ .card-projetos:hover .explicacao-projetos {
+    display: flex;
+ }
+
+.projeto-img{
+    width: 100%;
+    height: 300px;
+    transition: 0.5s ease;
+    border-radius: 10px;
+}
+
+.card-projetos:hover .projeto-img {
+    filter: grayscale(100%) opacity(20%) !important;
+    cursor: pointer;  
+}
+
+.portfolio-layer {
+    position: absolute;
+    z-index: 1; /* Aumenta o z-index para garantir que fique acima do .card-projetos */
+    border-radius: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.85),rgba(255, 196, 0, 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    transform: translateY(100%);
+    transition: 0.5s ease;
+}
+
+  .card-projetos:hover .portfolio-layer {
+    transform: translateY(0);
+  }
+
+
+  .card-projetos:hover a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border-radius: 50%;
+  }
+  
+  .card-projetos a i {
+    font-size: 2rem;
+  }
+
+#hint, #todo, #dicionario {
+    background-position: start;
+}
+
+#medclinic, #calculadora, #repocopa {
+    background-position: center;
+}
+
+#hint{
+    background-image: url(../icones/projetos/hint.JPG);
+}
+
+#todo{
+    background-image: url(../icones/projetos/todo.JPG);
+}
+
+#dicionario{
+    background-image: url(../icones/projetos/dicionario.JPG);
+}
+
+#medclinic {
+    background-image: url(../icones/projetos/MedPrint.JPG);
+}
+
+#calculadora {
+    background-image: url(../icones/projetos/calculadora.jpg);
+}
+
+#repocopa{
+    background-image: url(../icones/projetos/rocketseat.JPG);
+}
+
+
+@media (min-width: 768px) {
+    .projetos {
+        margin: 1rem;
+    }
+    
+}

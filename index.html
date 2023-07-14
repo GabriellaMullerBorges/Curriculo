@@ -11,7 +11,8 @@
 	<link rel="stylesheet" href="/styles/sobre.css">
 	<link rel="stylesheet" href="/styles/habilidades-tecnicas.css">
 	<link rel="stylesheet" href="/styles/competencias.css">
-
+	<link rel="stylesheet" href="/styles/projetos.css">
+	<link rel="stylesheet" href="/styles/footer.css">
 </head>
 <body class="vh-100 bg-dark text-light">
 	<div class="container impression d-flex flex-column justify-content-center align-items-center min-vw-100">
@@ -37,9 +38,9 @@
 			<li class="nav-item">
 			  <a class="nav-link" href="#projetos">Projetos</a>
 			</li>
-			<li class="nav-item">
+			<!--<li class="nav-item">
 				<a class="nav-link" href="#certificados">Certificados</a>
-			  </li>
+			  </li>-->
 			<li class="nav-item">
 				<a class="nav-link" href="#contato">Contato</a>
 			  </li>
@@ -65,11 +66,31 @@
 				  </div>
 				  <p class="texto-apresentacao"> Desenvolvedora de Software com experiência em criar projetos web com layouts responsivos e interativos, integrados com APIs</p>
 				  <div class="redes">
-					<div class="github"></div>
-					<div class="linkedin"></div>
-					<div class="email"></div>
-					<div class="whatsapp"></div>
-					<button class="cv"> CV </button>
+
+					<a href="https://github.com/GabriellaMullerBorges" class="github-link" target="_blank">
+					  <i class="bx bx-link-external"></i>
+					  <div class="github"></div>
+					</a>
+
+					<a href="https://www.linkedin.com/in/gabriella-borges-desenvolvedora-front-end" class="linkedin-link" target="_blank">
+					  <i class="bx bx-link-external"></i>
+					  <div class="linkedin"></div>
+					</a>
+
+					<a href="mailto:gabimullerborges@gmail.com" target="_blank">
+						<i class="bx bx-link-external"></i>	
+						<div class="email"></div>
+					</a>
+
+					<a href="https://api.whatsapp.com/send?phone=5551996997959" target="_blank">
+						<i class="bx bx-link-external"></i>	
+						<div class="whatsapp"></div>
+					</a>
+					
+					<a href="https://drive.google.com/file/d/1anlXArJB1HS-WV3xmlXf2gJz2THRLkjG/view?usp=sharing" class="cv-link" target="_blank">
+					<i class="bx bx-link-external"></i>
+					   <div class="cv">CV</div>
+					</a>	
 				  </div>
 				</div>
 			  </div>
@@ -105,7 +126,8 @@
 				</div>
 		</div>
 		<div class="row d-flex flex-column justify-content-center align-items-center">
-			<a href="https://www.notion.so/Gabriella-M-ller-Borges-0f533b75c37b491baf41f04120c10b54?pvs=4" class="saibamais ">Saiba mais +</a href="">
+			<a href="https://www.notion.so/Gabriella-M-ller-Borges-0f533b75c37b491baf41f04120c10b54?pvs=4" class="saibamais " target="_blank">
+				<i class="bx bx-link-external"></i>	Saiba mais +</a>
 		</div>
 	</div>
 	
@@ -259,12 +281,107 @@
 		</div>
 	</div>  
 	<div class="projetos" id="projetos">
+		<div class="titulo">Projetos</div>
+		<div class="row">
+			<div class="col-md-4 mb-4">
+				<div class="card-body card-projetos" id="hint">
+				  <a href="https://hint-library.vercel.app/" class="link-projeto" target="_blank">
+				  <div class="projeto-img"></div>	
+				  <div class="portfolio-layer">
+					<p class="projetos-nome">Hint Library</p>
+					<p class="usos-projetos">React, Typesript e Sass.</p>
+					<p class="explicacao-projetos">Página que armazena e categoria indicações de livros</p>
+				  </div>
+				  <i class="bx bx-link-external"></i></a>
+				</div>
+			</div>
+			  
+			<div class="col-md-4 mb-4">
+				<div class="card-body card-projetos" id="todo">
+					<a href="https://gabriellamullerborges.github.io/to-do-list/" class="link-projeto" target="_blank">
+					<div class="projeto-img"></div>	
+					<div class="portfolio-layer">			
+						<p class="projetos-nome">To do List</p>
+						<p class="usos-projetos">LocalStorage e Css in JS (light e dark mode) </p>
+						<p class="explicacao-projetos">Lista que armazena internamente as tarefas do usuário</p>
+					</div>
+					<i class="bx bx-link-external"></i></a>
+				</div>			
+			</div>
+
+			<div class="col-md-4 mb-4">
+				<div class="card-body card-projetos" id="dicionario">
+					<a href="https://gabriellamullerborges.github.io/Dicionario-Web/" class="link-projeto" target="_blank">
+					<div class="projeto-img"></div>	
+					<div class="portfolio-layer">
+						<p class="projetos-nome">Web Dictionary</p>
+						<p class="usos-projetos">HTML, CSS, e API em JS</p>
+						<p class="explicacao-projetos">Dicionário em inglês com significados, sinônimos, antônimos e mais...</p>
+					</div>
+					<i class="bx bx-link-external"></i></a>
+				</div>
+			</div>	
+		</div> <!-- fim da primeira row -->
+		<div class="row">
+			<div class="col-md-4 mb-4">		
+				<div class="card-body card-projetos" id="medclinic">
+					<a href="https://gabriellamullerborges.github.io/cadastro-medClinic/" class="link-projeto" target="_blank">
+					<div class="projeto-img"></div>
+					<div class="portfolio-layer">	
+						<p class="projetos-nome">MedClicnic Forms</p>
+						<p class="usos-projetos">Validação de Formulário e API</p>
+						<p class="explicacao-projetos">Página com carrossel e formulários validados</p>
+					</div>
+					<i class="bx bx-link-external"></i></a>
+				</div>	
+			</div>
+			<div class="col-md-4 mb-4">				
+				<div class="card-body card-projetos" id="calculadora">
+					<a href="https://gabriellamullerborges.github.io/Calculadora-de-Gorjetas/" class="link-projeto" target="_blank">
+					<div class="projeto-img"></div>
+					<div class="portfolio-layer">					
+						<p class="projetos-nome">Calculadora de Gorjetas</p>
+						<p class="usos-projetos">HTML, CSS, Regex em Javascript</p>
+						<p class="explicacao-projetos">Calculadora de gorjeta com botões pré-definidos e opções customizáveis.</p>
+					</div>
+					<i class="bx bx-link-external"></i></a>
+				</div>				
+			</div>
+			<div class="col-md-4 mb-4">
+				<div class="card-body card-projetos" id="repocopa">
+					<a href="https://gabriellamullerborges.github.io/repoCopaNLW/" class="link-projeto" target="_blank">
+						<div class="projeto-img"></div>	
+					<div class="portfolio-layer">			
+						<p class="projetos-nome">Calendário de Jogos Copa 2022</p>
+						<p class="usos-projetos">HTML, CSS para responsividade e Javascript/p>
+						<p class="explicacao-projetos">Calendário com os jogos da Copa/2022 e opção de troca de tema para verde e amarelo</p>
+					</div>
+					<i class="bx bx-link-external"></i></a>			
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--<div class="certificados" id="certificados">-->
 
 	</div>
-	<div class="certificados" id="certificados">
+	<footer>
+		<a href="https://github.com/GabriellaMullerBorges" class="github-link" target="_blank">
+			<i class="bx bx-link-external"></i>
+			<div class="infos"> Code by @GabriellaBorges</div>
+		</a>
+		
+		<div class="contato" id="contato"></div>
+			<a href="mailto:gabimullerborges@gmail.com" target="_blank">
+				<i class="bx bx-link-external"></i>	
+				<div class="email-footer"> E-mail</div>
+			</a>
 
-	</div>
-	<div class="contato" id="contato">
+			<a href="https://api.whatsapp.com/send?phone=5551996997959" target="_blank">
+				<i class="bx bx-link-external"></i>	
+				<div class="whatsapp-footer">Whatsapp</div>
+			</a>
+		</div>
+	</footer>
 
 	</div>
 	  
