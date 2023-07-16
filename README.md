@@ -2,15 +2,15 @@
 
 ![image](https://github.com/GabriellaMullerBorges/Curriculo/assets/112037356/c4d73c7c-7a23-4ac7-b701-4be5727b20ba)
 
-Este é um projeto foi iniciado como o projeto final do Zenvia Empower Code, no entanto, resolvi atualizá-lo para poder utilizar no Programa Desenvolçve do Boticário como portfólio pessoal.
-A página conta um pouco sobre minhas competência e habilidades, e dá acesso aos principais projetos que já fiz.,
+Este é um projeto foi iniciado como o projeto final do Zenvia Empower Code, no entanto, resolvi atualizá-lo para poder utilizar no Programa Desenvolve do Boticário como portfólio pessoal.
+A página conta um pouco sobre minhas competência e habilidades, e dá acesso aos principais projetos que já fiz.
 
 ## ✔️  Funcionalidades
 
 * Apresentação
-* Disponibiliza links de contato
-* Traz um pouco sobre minhas habilidades e competências
-* Disponibiliza o link do deploy dos principais projetos
+* Disponibilização links de contato
+* Um pouco sobre minhas habilidades e competências
+* Disponibilização do link do deploy dos principais projetos
 
 ## ⚠️ Melhorias Futuras
 
