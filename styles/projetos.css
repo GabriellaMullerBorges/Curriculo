@@ -99,7 +99,13 @@
 #medclinic, #calculadora, #repocopa {
     background-position: center;
 }
+#reactflix{
+    background-image: url(../icones/projetos/reactflix.JPG) ;
+}
 
+#medhome{
+    background-image: url(../icones/projetos/MedHome.JPG);
+}
 #hint{
     background-image: url(../icones/projetos/hint.JPG);
 }
