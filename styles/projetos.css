@@ -99,6 +99,10 @@
 #medclinic, #calculadora, #repocopa {
     background-position: center;
 }
+
+#portfolio {
+    background-image: url(../icones/projetos/portfólioEN.JPG) ;
+}
 #reactflix{
     background-image: url(../icones/projetos/reactflix.JPG) ;
 }
